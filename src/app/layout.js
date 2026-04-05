@@ -1,9 +1,8 @@
-// import { Geist, Geist_Mono } from "next/font/google";
+import Script from "next/script";
 import Navbar from "@/components/Navbar";
 import "./globals.css";
 import Footer from "@/components/Footer";
 
-// viewport: "width=device-width, initial-scale=1",
 export const metadata = {
   title:"Ronkedigital",
   description:"Ronkedigital is a frontend developer passionate about building modern, user-friendly web applications with clean design and smooth user experience.",
@@ -19,12 +18,14 @@ export const metadata = {
 
   creator: "Ronkedigital",
 
-  metadataBase: new URL("https://Ronkedigital.com"),
+  viewport: "width=device-width, initial-scale=1",
+
+  metadataBase: new URL("https://ronkedigital.vercel.app"),
 
   openGraph: {
     title: "Ronkedigital Portfolio",
     description: "Explore my projects and skills in frontend development",
-    url: "https://Ronkedigital.com",
+    url: "https://ronkedigital.vercel.app",
     siteName: "Ronkedigital",
     images:[
       {
