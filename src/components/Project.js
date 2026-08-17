@@ -21,18 +21,18 @@ const projects =[
         link: "https://todo-list-five-chi-70.vercel.app"
 
     },
-     {
-        name: "Project 4",
-        description: "A responsive beginner web app built with HTML, Bootstrap, JavaScript.",
-        image: "/images/iconic.jpeg",
-        link: "https://roniblaq.github.io/IconicTravels"
-    },
+    //  {
+    //     name: "Project 4",
+    //     description: "A responsive beginner web app built with HTML, Bootstrap, JavaScript.",
+    //     image: "/images/iconic.jpeg",
+    //     link: "https://roniblaq.github.io/IconicTravels"
+    // },
       {
-         name: "Project 5",
+         name: "Project 4",
         description: "A Fullstack responsive web app built with Next.js, Tailwindcss, PHP, MYSQL Database.",
-    image:"/images/sample.JPG",
+       image:"/images/sample.JPG",
        link: "https://mindease-smoky.vercel.app"
-    },
+      },
 ];
 
 export default function Projects() {
