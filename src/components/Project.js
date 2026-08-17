@@ -25,13 +25,14 @@ const projects =[
         name: "Project 4",
         description: "A responsive beginner web app built with HTML, Bootstrap, JavaScript.",
         image: "/images/iconic.jpeg",
-        link: "https://www.iconictravels.com"
+        link: "https://roniblaq.github.io/IconicTravels"
     },
-    //  {
-    //     name: "Project 5",
-    //     description: "A responsive web app built with Next.js and Tailwindcss.",
-    //     link: "#"
-    // },
+      {
+         name: "Project 5",
+        description: "A Fullstack responsive web app built with Next.js, Tailwindcss, PHP, MYSQL Database.",
+    image:"/images/sample.JPG",
+       link: "https://mindease-smoky.vercel.app"
+    },
 ];
 
 export default function Projects() {
